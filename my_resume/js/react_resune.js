@@ -323,7 +323,7 @@ new Vue({
 		    start+=syear*1.5;
 		    end+=syear*1.5;
 		}
-		if(month>0){
+		if(month>6){
 			let smonth = (month)/3;
 		    start+=smonth*0.5;
 		    end+=smonth*0.5;	
