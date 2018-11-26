@@ -19,10 +19,19 @@
                         <div class="col-md-12 col-sm-12 col-xl-12 name" style="padding: 0;">
                             <span style="font-weight: bold;">{{name}}</span>
                         </div>
-                         <div class="col-md-12 col-sm-12 col-xl-12 position" style="padding: 0;">
-                            <div class="job">{{job}}</div>
-                            <div class="job" style="margin-right: 40px;">工作时长：{{date(jobtimes)}}</div>
-                              <div class="job" style="margin-right: 40px;">{{salaryname}}：{{salarys(salary)}}</div>
+                
+                         <div class="col-md-12 col-sm-12 col-xl-12 " style="padding: 0;">
+                            <ul style="text-align: left;list-style: none;">
+                                 <li style="float: left;">
+                                    {{job}}
+                                </li>
+                                <li style="float: left;">
+                                    工作时长：{{date(jobtimes)}}
+                                </li>
+                                <li style="float: left;">
+                                   {{salaryname}}：{{salarys(salary)}}
+                                </li>
+                            </ul>
                         </div>
                         <div class="col-md-12 col-sm-12 col-xl-12 " style="padding: 0;">
                             <ul style="text-align: left;list-style: none;">
