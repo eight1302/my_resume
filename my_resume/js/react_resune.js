@@ -4,7 +4,7 @@ new Vue({
   	img : 'free.jpg',
     name: '张晓敏',
     email: '380080496@qq.com',
-    phone: '15847418122',
+    phone: '18301633719',
     jobtimes : '2016-10',
     job : '求职意向：前端工程师',
     salaryname : '薪资',
