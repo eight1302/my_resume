@@ -8,7 +8,7 @@ new Vue({
     jobtimes : '2016-10',
     job : '求职意向：前端工程师',
     salaryname : '薪资',
-    salary : '11~14',
+    salary : '14~16',
     jobtimesale : '',
     education_ba : '教育背景',
     education : [{
