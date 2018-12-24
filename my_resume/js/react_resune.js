@@ -2,13 +2,13 @@ new Vue({
   el: '#resume',
   data: {
   	img : 'free.jpg',
-    name: '张晓敏',
-    email: '380080496@qq.com',
-    phone: '18301633719',
+    name: '张先生',
+    email: '保密',
+    phone: '保密',
     jobtimes : '2016-10',
     job : '求职意向：前端工程师',
     salaryname : '薪资',
-    salary : '12.5~14.5',
+    salary : '12~14',
     jobtimesale : '',
     education_ba : '教育背景',
     education : [{
@@ -319,7 +319,7 @@ new Vue({
 			end =  Number(salar[1])
 		let year = Number(this.jobtimesale.split('年')[0]),month = Number(this.jobtimesale.split('年')[1].split('月')[0]);
 		if(year>2){
-		    let syear = year-2;
+		    let syear = year-1;
 		    start+=syear*1.5;
 		    end+=syear*1.5;
 		}
