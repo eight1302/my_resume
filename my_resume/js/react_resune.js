@@ -320,8 +320,8 @@ new Vue({
 		let year = Number(this.jobtimesale.split('年')[0]),month = Number(this.jobtimesale.split('年')[1].split('月')[0]);
 		if(year>=2){
 		    let syear = year-1;
-		    start+=syear*1.5;
-		    end+=syear*1.5;
+		    start+=syear+2;
+		    end+=syear+2;
 		}
 		if(month>6){
 			let smonth = (month)/3;
