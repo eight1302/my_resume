@@ -7,7 +7,7 @@ new Vue({
     phone: '保密',
     jobtimes : '2016-10',
     job : '求职意向：前端工程师',
-    salaryname : '薪资',
+    salaryname : '薪资',  
     salary : '12~14',
     jobtimesale : '',
     education_ba : '教育背景',
@@ -318,7 +318,7 @@ new Vue({
 		let start = Number(salar[0]),
 			end =  Number(salar[1])
 		let year = Number(this.jobtimesale.split('年')[0]),month = Number(this.jobtimesale.split('年')[1].split('月')[0]);
-		if(year>2){
+		if(year>=2){
 		    let syear = year-1;
 		    start+=syear*1.5;
 		    end+=syear*1.5;
