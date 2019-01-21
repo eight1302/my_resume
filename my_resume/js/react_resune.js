@@ -2,7 +2,7 @@ new Vue({
   el: '#resume',
   data: {
   	img : 'free.jpg',
-    name: '张先生',
+    name: '张晓敏',
     email: '保密',
     phone: '保密',
     jobtimes : '2016-10',
