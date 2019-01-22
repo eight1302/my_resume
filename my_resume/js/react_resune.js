@@ -8,7 +8,7 @@ new Vue({
     jobtimes : '2016-10',
     job : '求职意向：前端工程师',
     salaryname : '薪资',  
-    salary : '10~12',
+    salary : '10.5~12.5',
     jobtimesale : '',
     education_ba : '教育背景',
     education : [{
@@ -25,20 +25,20 @@ new Vue({
     		id : '1',
     		company : '北京润合美商贸有限公司',
 	    	region : '北京',
-	    	job_position : 'Web前端中级工程师',
+	    	job_position : 'Web前端工程师',
 	    	times : '2018.4~至今',
     	},{
     		id : '2',
     		company : '北京创元成业科技有限公司',
 	    	region : '北京',
-	    	job_position : 'Web前端初级工程师',
+	    	job_position : 'Web前端工程师',
 	    	times : '2017.10~2018.4',
     	},
     	{
     		id : '2',
     		company : '北京匡恩网络科技有限责任公司',
     		region : '北京',
-	    	job_position : 'Web前端初级工程师',
+	    	job_position : 'Web前端工程师',
 	    	times : '2016.10~2017.4',
     	},
     ],
@@ -51,67 +51,27 @@ new Vue({
 	    	job_position : 'Web前端开发',
 	    	times : '2018.8~至今',
 	    	values : [{
-	    		info : '前期工作：整理需求，'+<br>+'1、客户来源：销售添加、同步公司内部U8客户、获取天眼查的企业信息以及法人相关的旗下公司、通过公司官网注册添加的基本信息，生成客户线索，通过客户线索转化到客户；二、联系人：通过销售完成客户信息添加联系人信息或者导入联系人信息；三、店铺信息：销售通过添加客户或联系人完善店铺信息、抓取天眼查、京东、淘宝、天猫抓取到相关信息以及店铺的销售品牌（销售额）的情况；四、品牌信息：销售添加或者抓取的信息；五、对客户进行跟踪促成合作意向；'+
-	    		'项目职责: 负责公司分销CRM的前端工作(页面设计、功能交互以及测试等,全责)',
+	    		info : '前期需求整理:1、客户、联系人、店铺信息来源：销售添加、同步公司内部U8客户、获取天眼查的企业信息以及法人相关的旗下公司、联系人、店铺、通过公司官网注册添加的基本信息，生成客户线索，通过客户线索转化到客户；2、对客户进行跟踪促成合作意向；3、销售完成目标以及完成情况等；4、销售考核等需求等等',
 	    	},{
-	    		info : '使用技术: BootStrap/JQuery/vue/elementUI/echarts/ES6',
+	    		info : '后期开发: 实现公司CRM系统的功能模块的业务流程以及功能模块的页面设计、js功能交互、开发通用组件以及功能测试等。',
 	    	},{
-	    		info : '完成状态: 已完成第一、第二版开发,进入第三版迭代开发',
+	    		info : '使用技术: vue/elementUI/echarts/ES6',
+	    	},{
+	    		info : '完成状态: 已完成第一、第二版、第三版开发',
 	    	}],
 	    	describe : '使用公司：北京润合美商贸有限公司。',
-    	},
-	     {
-    		id : '8',
-    		projuct_name : '企业项目',
-    		name : 'KPI考核第一版',
-	    	job_position : 'Web前端开发',
-	    	times : '2018.7.01~2018.8.01',
-	    	values : [
-	    	{
-	    		info : '项目职责: 负责公司KPI考核第一版前端工作(页面设计、功能交互以及测试等,全责),接手外包进行的迭代开发，进行维护工作以及添加新功能',
-	    	},{
-	    		info : '使用技术: 运用BootStrap/JQuery',
-	    	},{
-	    		info : '完成状态: 第一版以完成,对外包的项目进行维护工作',
-	    	}],
-	    	describe : '使用公司: 北京润合美商贸有限公司。',
-    	},
-	     {
-    		id : '7',
-    		projuct_name : '电商项目',
-    		name : '分销项目',
-	    	job_position : 'Web前端开发',
-	    	times : '2018.4.20~2018.7.01',
-	    	values : [{
-	    		info : '项目职责: 维护已有项目的前端工作,重构原有前端代码',
-	    	},{
-	    		info : '使用技术: 运用BootStrap/JQuery',
-	    	}],
-	    	describe : '使用公司：北京润合美商贸有限公司。',
-    	},
-	    {
-    		id : '6',
-    		projuct_name : '电商项目',
-    		name : '合伙人项目(手机端项目)',
-	    	job_position : 'Web前端开发',
-	    	times : '2018.4.20~2018.7.01',
-	    	values : [{
-	    		info : '项目职责: 维护已有项目的前端工作、添加新的功能',
-	    	},{
-	    		info : '使用技术: 运用BootStrap/JQuery',
-	    	}],
-	    	describe : '使用公司：北京润合美商贸有限公司微信手机端项目。',
-    	},
-	  {
+    	},{
     		id : '5',
     		projuct_name : '电商项目',
     		name : '猫超OS平台',
 	    	job_position : 'Web前端开发',
-	    	times : '2018.4.20~2018.7.01',
+	    	times : '2018.4.20~至今',
 	    	values : [{
-	    		info : '项目职责: 维护已有项目的前端部分工作、迭代开发',
+	    		info : '代码维护: 根据业务部门的需求，调整已有代码业务逻辑以及呈现等。',
 	    	},{
-	    		info : '使用技术: 运用BootStrap/JQuery/bootstrap table/css3/echarts',
+	    		info : '迭代开发: 整理业务部门需求、确定前端开发周期以及开发效果等。',
+	    	},{
+	    		info : '使用技术: 运用BootStrap/JQuery/bootstrap table/echarts',
 	    	},{
 	    		info : '完成状态: 持续维护',
 	    	}],
@@ -122,45 +82,17 @@ new Vue({
     		projuct_name : '企业项目',
     		name : '创元生产平台',
 	    	job_position : 'Web前端开发',
-	    	times : '2017.12~2018.3',
+	    	times : '2017.10~2018.4',
 	    	values : [{
-	    		info : '项目职责: 维护已有项目的前端工作(全责)',
+	    		info : '前期需求整理: 去业务部门搜集需求，主要有，1、客户详细信息以及客户多收货详细信息；2、客户生成硬件产品类型、硬件主板、包装的详细信息以及销售报价、审核、销售促成合作；3、客户收货以及返厂维修以及相关跟踪；4、根据客户的产品进行相关的生成流程线；5、财务收款以及核账开票等。',
 	    	},{
-	    		info : '使用技术: 运用BootStrap/JQuery/jsp/echartjs',
-	    	},{
-	    		info : '完成状态: 完成第一版',
-	    	}],
-	    	describe : '使用公司: 北京创元成业科技有限公司工厂使用。',
-    	},
-    	{
-    		id : '3',
-    		projuct_name : '企业项目',
-    		name : '客户下单平台(订单系统)',
-	    	job_position : 'Web前端开发',
-	    	times : '2017.10~2017.12',
-	    	values : [{
-	    		info : '项目职责: 维护已有项目的前端工作(全责)',
+	    		info : '后期开发: 实现公司系统的功能模块的业务流程以及功能模块的页面设计、js功能交互以及功能测试等。',
 	    	},{
 	    		info : '使用技术: 运用BootStrap/JQuery/echartjs',
 	    	},{
 	    		info : '完成状态: 完成第一版',
 	    	}],
-	    	describe : '使用公司: 北京创元成业科技有限公司对外使用。',
-    	},
-    	{
-    		id : '2',
-    		projuct_name : '商业项目',
-    		name : '工控安全卫士',
-	    	job_position : 'Web前端开发',
-	    	times : '2017.1~2017.4',
-	    	values : [{
-	    		info : '项目职责: 维护已有项目的前端部分工作',
-	    	},{
-	    		info : '使用技术: 运用BootStrap/JQuery/echartjs',
-	    	},{
-	    		info : '完成状态: 已完成',
-	    	}],
-	    	describe : '类似杀毒软件网络安全管理',
+	    	describe : '使用公司: 北京创元成业科技有限公司以及相关客户使用。',
     	},
     	{
     		id : '1',
@@ -169,9 +101,11 @@ new Vue({
 	    	job_position : 'Web前端开发',
 	    	times : '2016.10~2017.1',
 	    	values : [{
-	    		info : '项目职责: 负责公司工控卫士集中管理平台项目的前端部分工作',
+	    		info : '前期需求整理: 对已有需求进行整理，完善功能的流程设计等。',
 	    	},{
-	    		info : '使用技术: 运用BootStrap/JQuery/echartjs/node/angular',
+	    		info : '后期开发: 实现公司系统的部分功能模块的业务流程以及功能模块的页面设计、js功能交互以及功能测试等。',
+	    	},{
+	    		info : '使用技术: 运用JQuery/echartjs/node/angular',
 	    	},{
 	    		info : '完成状态: 已完成',
 	    	}],
@@ -182,71 +116,47 @@ new Vue({
     person_info : [
     	{
     		id : '1',
+    		name : '在线系统',
+	    	job_position : '全站开发',
+	    	times : '2018.11~2019.1',
+	    	info : '使用vue/elementUI/webSql/echartjs',
+    	},
+    	{
+    		id : '2',
     		name : '我的个人博客',
 	    	job_position : '全站开发',
 	    	times : '2018.1.1~2018.1.30',
 	    	info : '使用JQuery/Javascript/NodeJS/vue/mongodb',
     	},
     	{
-    		id : '2',
+    		id : '3',
     		name : '终端管理系统(毕业设计)',
 	    	job_position : '全站开发',
 	    	times : '2017.1~2017.6',
 	    	info : '使用JQuery/Javascript/PHP/MySql',
-    	},
-    	{
-    		id : '3',
-    		name : '在线商城 ',
-	    	job_position : '全站开发',
-	    	times : '2016.4~2016.6',
-	    	info : '使用JQuery/Javascript/java/jsp/MySql',
-    	},
-    	{
-    		id : '4',
-    		name : '多用户留言系统',
-	    	job_position : '全站开发',
-	    	times : '2015.11~2016.4',
-	    	info : '使用JQuery/Javascript/PHP/MySql',
-    	},
-    	{
-    		id : '5',
-    		name : 'CMS内容管理系统',
-	    	job_position : '全站开发',
-	    	times : '2015.5~2015.10',
-	    	info : '使用JQuery/Javascript/PHP/MySql',
-	    }
+    	}
     ],
     skills : '技能',
     skills_info : [
     	{
     		id : '1',
     		name : '语言',
-	    	language : 'HTML(5)/CSS(3)/Javascript/PHP/EchartsJs/Gojs',
-    	},
-    	{
-    		id : '2',
-    		name : '其他',
-	    	language : 'HTTP/JSP(技术)',
+	    	language : 'HTML(5)/CSS(3)/Javascript/PHP',
     	},
     	{
     		id : '3',
     		name : '框架',
-	    	language : 'Jquery/Bootstrap/vue/angular/elementUI',
+	    	language : 'Jquery/Bootstrap/vue/angular/elementUI/EchartsJs/Gojs',
     	},
     	{
     		id : '4',
     		name : '数据库',
-	    	language : 'MySql/MongoDB',
+	    	language : 'MySql/MongoDB/webSql',
     	},
     	{
     		id : '5',
     		name : '前端工具 ',
-	    	language : 'webpack',
-	    },
-	    {
-    		id : '6',
-    		name : '版本管理 ',
-	    	language : 'git',
+	    	language : 'webpack/gulp',
 	    }
     ],
     other : '其他',
@@ -260,6 +170,11 @@ new Vue({
     		id : '2',
     		name : 'CSDN博客',
 	    	language : 'http://my.csdn.net/zxmin1302',
+    	},
+    	{
+    		id : '3',
+    		name : '在线系统',
+	    	language : 'https://eight1302.github.io/personJOB/myprojetct/view/login.html',
     	}
     ]
   },

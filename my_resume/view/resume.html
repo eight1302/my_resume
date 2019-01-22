@@ -29,7 +29,7 @@
                                     工作时长：{{date(jobtimes)}}
                                 </li>
                                 <li style="float: left;">
-                                   {{salaryname}}：{{salarys(salary)}}
+                                   {{salaryname}}：{{salarys(salary)}}K
                                 </li>
                             </ul>
                         </div>
@@ -67,9 +67,9 @@
                         <hr / style="border-top: 1px solid #161515;">
                     </div>
                      <div class="col-md-12 col-sm-12 col-xl-12" v-for="date in work_info">
-                        <div class="col-md-4 col-sm-12 col-xl-12 three"><strong>{{date.company}}</strong>&nbsp;&nbsp;{{date.region}}</div>
+                        <div class="col-md-5 col-sm-12 col-xl-12 three"><strong>{{date.company}}</strong>&nbsp;&nbsp;{{date.region}}</div>
                         <div class="col-md-4 col-sm-12 col-xl-12 three" style="text-align: center;">{{date.job_position}}</div>
-                        <div class="col-md-4 col-sm-12 col-xl-12 three" style="text-align: right;">{{date.times}}</div>
+                        <div class="col-md-3 col-sm-12 col-xl-12 three" style="text-align: right;">{{date.times}}</div>
                     </div>
                 </section>
                 <section class="col-md-12 col-sm-12 col-xl-12" style="padding: 0;height: auto;">
