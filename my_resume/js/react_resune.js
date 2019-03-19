@@ -21,21 +21,28 @@ new Vue({
     }],
     work_experience : '工作经历',
     work_info : [
+	{
+		id : '1',
+    		company : '北京极致互联有限公司',
+	    	region : '北京',
+	    	job_position : 'Web前端工程师',
+	    	times : '2019.3~至今',
+	},
     	{
-    		id : '1',
+    		id : '2',
     		company : '北京润合美商贸有限公司',
 	    	region : '北京',
 	    	job_position : 'Web前端工程师',
 	    	times : '2018.4~至今',
     	},{
-    		id : '2',
+    		id : '3',
     		company : '北京创元成业科技有限公司',
 	    	region : '北京',
 	    	job_position : 'Web前端工程师',
 	    	times : '2017.10~2018.4',
     	},
     	{
-    		id : '2',
+    		id : '4',
     		company : '北京匡恩网络科技有限责任公司',
     		region : '北京',
 	    	job_position : 'Web前端工程师',
