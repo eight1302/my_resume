@@ -33,7 +33,7 @@ new Vue({
     		company : '北京润合美商贸有限公司',
 	    	region : '北京',
 	    	job_position : 'Web前端工程师',
-	    	times : '2018.4~至今',
+	    	times : '2018.4~2019-3',
     	},{
     		id : '3',
     		company : '北京创元成业科技有限公司',
